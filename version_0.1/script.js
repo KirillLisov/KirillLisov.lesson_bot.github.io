@@ -21,7 +21,7 @@ const guessedNumber = prompt( "Угадай число от 1 до 100" );
 if ( guessedNumber === null ){
   alert( "Конец игры" );
 } else {
-  
+  amountSum = 0;
   if (!isNumber( guessedNumber )){
     const numberError = confirm( "Введи число! Хотите ввести новый вариант ?" );
     
